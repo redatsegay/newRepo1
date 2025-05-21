@@ -1,0 +1,56 @@
+
+<1> Authored backend solutions 
+	-> using JDBC, Java, Spring Boot, MySQL 
+	-> demonstrating proficiency in building and maintaining robust server side applications.
+
+<2> Evaluated 
+	-> analysis, 
+	-> problem definition, 
+	-> requirements to determine feasibility ensuring alignment with consulting and technology services.
+
+<3> Developed and automated 
+	-> software validation process, 
+	-> creating and executing test cases 
+	-> using java, spring batch and other tools to ensure robust functionality and performance.
+
+<4> Modified software to 
+	-> address errors, 
+	-> enhance performance, 
+	-> adapt to new hardware using Hibernate ORM and microservice architecture
+
+<5> Analyzed and planned 
+	-> the installation/modification of systems, 
+	-> incorporating SQL, NoSQL and JDBC databases, 
+	-> for effective database management and optimization.
+
+<6> Ensured code quality through 
+	-> rigorous testing and debugging 
+	-> leveraging GitLab, GitHub, Bitbucket for version control and
+	-> CI/CD pipeline practices.
+
+<7> Facilitated adherence to coding standards, 
+	-> with clear description and replication patterns, 
+	-> ensuring consistency across projects and programs.
+
+<8> Orchestrated comprehensive documentation and reports 
+	utilizing docker and Kubernetes for 
+	effective container management and orchestration.
+
+<9> Coordinated daily project status and progress with the team 
+	-> Using SPLUNK for monitoring and 
+	-> integrated web services with XML, JSON, Spring Data JPA,
+	-> to ensure smooth data exchange and system interoperability.  
+
+Card Management Functionalities
+	-> issuing cards,
+	-> checking balances,
+	-> payment processing,
+	-> tracking transactions,
+	-> managing card limits
+
+Loan Processing Functionalities
+	-> loan application
+	-> loan approval
+	-> tracking outstanding payments
+	-> payment schedules
+	-> interest calculations
