@@ -1,0 +1,24 @@
+developed and automated software validation process, writing and executing test cases using Junit or spring Batch and other tools to 
+
+modified software to address errors, enhance performance, and adapt to new hardware using Hibernate ORM and Microservice architecture
+
+
+public void runJob(){
+	@Autowired
+	private JobLauncher jobLauncher;
+	
+	@Autowired
+	private Job exampleJob;
+
+	try{
+		JobParameters jobParameters = new JobParametersBuilder()
+		.addDate("date", new Date())
+		.toJobParameters();
+	
+		JobExecution execution = new JobLauncher.run(exampleJob, jobParameters);
+	}
+	catch(Exception e){
+		System.out.println("Error occurred "+e.getMessage())
+	}
+	
+}
