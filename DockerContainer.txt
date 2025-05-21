@@ -1,0 +1,31 @@
+Docker Images related commands
+
+//Docker Desktop 4.32.0
+
+docker images -> displays all available images
+docker ps -> displays running containers
+docker container sotp CONTAINERID - stops the container
+docker container kill CONTAINERID - kills the container
+
+///postgres db configuration
+docker run --name mypostgres -p 5432:5432 -e postgres_password=root -e postgres_user=postgres -e postgres_db=mydb -d postgres
+-e->environment variable
+-p->port
+-d->detach mode 
+
+//Postgress related commands
+//postgress configuration command
+docker run --name mypostgres -p 5432:5432 -e postgres_password=root -e postgres_user=postgres -e postgres_db=mydb -d postgres
+-e->environment variable
+-p->port
+-d->detach mode 
+//docker exec -it mypostgres bash
+//psql -h localhost -p 5432 -U postgres
+//create database mydb
+//\l->display all databases
+//\c mydb -> you are now connected to database
+//create table users(id, name, email); use databases mydb;
+//insert into users(id, name, email) values (1,"Gebre","gebre@gmail.com)
+
+
+
